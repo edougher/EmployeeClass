@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ *  Position enumeration
+ */
+
 public enum PositionTitle {
     Administration,
     Production,

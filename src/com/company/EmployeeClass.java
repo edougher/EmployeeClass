@@ -11,6 +11,15 @@ public class EmployeeClass {
     private String startDate;
     private double weeklyTotal;
 
+    /**
+     * Class Constructor
+     * @param name
+     * @param position
+     * @param salary
+     * @param payRate
+     * @param shift
+     * @param startDate
+     */
 
     public EmployeeClass(String name, PositionTitle position, boolean salary, double payRate, int shift, String startDate) {
         this.name = name;
@@ -21,6 +30,11 @@ public class EmployeeClass {
         this.startDate = startDate;
 
     }
+
+    /**
+     *  Getters and setters
+     * @return
+     */
 
     public PositionTitle getPosition() {
         return position;
@@ -60,6 +74,12 @@ public class EmployeeClass {
         this.startDate = startDate;
     }
 
+
+    /**
+     * Still need to play around with this Method to get it to work
+     * @param hoursIn
+     * @return
+     */
 
     public double calculate(double hoursIn){
         double overTimePay = 0;
